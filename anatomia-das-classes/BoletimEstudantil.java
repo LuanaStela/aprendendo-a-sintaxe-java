@@ -1,5 +1,3 @@
-package edu.luana.anatomiadasclasses;
-
 public class BoletimEstudantil {
     public static void main(String[] args) {
         int mediaFinal = 5;
