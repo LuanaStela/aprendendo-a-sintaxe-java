@@ -1,16 +1,29 @@
 package operadores;
 public class Operadores {
     public static void main (String [] args) {
-        int numero = 5;
+        String  nomeUm = "Luana";
+        String nomeDois = "Luana";
+            System.out.println(nomeUm == nomeDois);
 
-        numero = - numero;
+        int numero1 = 1;
+        int numero2 = 2;
 
-        System.out.println(numero);
+        boolean simNao = numero1 == numero2;
 
-        numero = numero * -1;
+        if (numero1 < numero2) {
+            System.out.println("a nossa condição é verdadeira");
+        }
 
-        System.out.println(numero);
-        
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+
+        System.out.println("numeroUm é diferente a numeroDois? " + simNao);
+
+        simNao = numero1 > numero2;
+
+        System.out.println("numeroUm é maior que numeroDois? " + simNao);
+
 
     }
 }
